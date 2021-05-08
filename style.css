@@ -1,0 +1,58 @@
+h1{
+    font-family: 'Itim', cursive;
+    color: rgb(51, 7, 87);
+    text-align: center;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+body{
+    padding: 30px;
+    /*background: linear-gradient(to top right, rgba(248,94,208,70),rgba(199,41,147,73),rgba(139,58,229,75));*/
+    background: linear-gradient(to bottom right,rgba(22,230,246,92),rgba(6,201,246,93),rgba(62,116,246,95));
+    background-repeat: no-repeat;
+}
+.img-responsive:hover{
+  transform: scale(0.9);
+}
+.movie_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
+}
+h4{
+    font-family: 'Merriweather', serif;
+    color: black; 
+}
+iframe{
+    width: 80%;
+}
+.write_notes
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+
+.write_notes input
+{
+	width: 80%;
+    height: fit-content;
+}
+#save{
+    margin-top: 15px;
+    width: 30%;
+    font-size: 20px;
+}
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Writing a Diary</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+
+    <body class="container-fluid" onload="setdate()">
+        <center>
+        <div id="message_display">
+            <h3 id="date" style="text-align: right;" class="btn-primary"></h3>
+            <h1>Diary Writing</h1>
+            <br>
+            <div id="output" style="text-align:left;margin-bottom:70px"></div>
+        </div>
+        <div id="write_notes">
+            <h2>Write notes:</h2>
+            <br>
+            <input id="note" class="form-control" placeholder="notes"></input>
+            <br>
+            <button onclick="save()" class="btn btn-success" id="save" >Save</button>
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
